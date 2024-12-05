@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: goldenrod;
+}
+
+h1 {
+    text-align: center;
+    font-size: 4rem;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.table {
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    border: 2px gray solid;
+    font-size: 1.5rem;
+}
+
+thead {
+    background-color: azure;
+}
+
+th, td {
+    border: 2px gray solid;
+}
+
+tbody > tr:nth-of-type(even) {
+    background-color: rgb(212, 212, 214);
+  }
+
+tbody > tr:nth-of-type(odd) {
+    background-color: rgb(163, 164, 165);
+  }
